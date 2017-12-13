@@ -1,0 +1,164 @@
+body
+{
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	color:	#3c4043;
+	width: 100%;
+	background-color: #f8f8f8;
+	display: block;
+	font-size: 100%;
+	margin: 0;
+}
+
+form span
+{
+	display: inline-block;
+	width: 15px;
+	margin-left: 10px;
+}
+
+form
+{
+	display: block;
+	width: 324px;
+	border: solid 1px #d8d8d8;
+	margin: auto;
+	padding: 15px 0px;
+}
+
+.center
+{
+	margin: auto;
+}
+
+.cloud
+{
+	border-radius: 8px;
+	box-shadow: 0px 1px 6px rgba(32,33,36,0.28);
+	font-size: 12px;
+	background-color: #fff;
+}
+
+@media screen and (min-width: 833px)
+{
+	.cloud
+	{
+		width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media screen and (max-width: 832px)
+{
+	.cloud
+	{
+		margin-left: 16px;
+		margin-right: 16px;
+	}
+}
+
+#menu
+{
+	font-size: 12px;
+	text-transform: uppercase;
+    position: relative;
+	white-space: nowrap;
+	overflow: auto;
+}
+
+.menu-option
+{
+    display: inline-block;
+    line-height: 40px;
+    margin: 0px auto;
+    padding: 0px 16px;
+    text-align: center;
+}
+
+.menu-option:hover
+{
+    background-color: #f0f0f0;
+}
+
+.borderless
+{
+    padding: 0px;
+}
+
+#menu a
+{
+	text-decoration: none;
+	color: rgba(0,0,0,0.54);
+}
+
+#logo
+{
+	display: block;
+	height: 64px;
+	width: 100%;
+}
+
+#logo h1
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 135px;
+	padding: 11px 0px;
+	color: #6d6d6d;
+}
+
+.content
+{
+	display: block;
+	margin-top: 20px;
+	min-height: 65%;
+}
+
+.caption
+{
+	display: block;
+	margin: 32px 16px;
+}
+
+.app
+{
+	display: block;
+	margin: 12px 16px;
+}
+
+.caption p
+{
+	font-size: 3em;
+	font-weight: bolder;
+	margin: 10px 0px 30px 0px;
+}
+
+.textbox
+{
+	border: solid 1px #d8d8d8;
+	border-radius: 3px;
+	height: 25px;
+	margin: 5px 10px;
+}
+
+.g-recaptcha
+{
+	margin: 5px 10px;
+}
+
+#mail-subject
+{
+	width: 200px;
+	margin: 5px 63px;
+}
+
+#mail-adress
+{
+	width: 150px;
+}
+
+#mail-message
+{
+	width: 306px;
+	height: 75px;
+}
