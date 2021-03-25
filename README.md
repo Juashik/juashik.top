@@ -1,3 +1,3 @@
-# juashik.top
+# juashik.dev
 
-Just a source code for http://juashik.top/
+Just a source code for https://juashik.dev/
