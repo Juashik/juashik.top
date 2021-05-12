@@ -15,6 +15,20 @@ body{
     flex-direction: column;
 }
 
+nav{
+    padding: 1em 3em;
+    z-index: 10;
+}
+
+a{
+    color: #ddd;
+    font-weight: 600;
+}
+
+a:hover{
+    color: #fff;
+}
+
 #content{
     display: flex;
     align-items: center;
@@ -28,6 +42,7 @@ body{
     font-weight: 400;
     font-size: 12px;
     text-align: left;
+    padding: 1em 3em;
 }
 
 h1{
@@ -39,10 +54,6 @@ h1{
     z-index: 1;
 }
 
-p{
-    margin: 12px;
-}
-
 canvas{
     margin: auto;
     position: absolute;
@@ -52,7 +63,7 @@ canvas{
     right: 0;
 }
 
-@media screen and (orientation: landscape) { 
+@media screen and (orientation: landscape) {
     canvas{
         height: 100vh;
     }

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,400');
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3{
+    font-weight: 400;
+}
+
+a{
+    color: #ddd;
+    font-weight: 600;
+}
+
+a:hover{
+    color: #fff;
+}
+
+p{
+    margin-bottom: 2em;
+}
+
+#back{
+    font-size: 0.75em;
+}
+
+#back a{
+    text-decoration: none;
+}
