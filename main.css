@@ -16,8 +16,20 @@ body{
 }
 
 nav{
-    padding: 1em 3em;
+    display: flex;
+    justify-content: left;
+    align-items: center;
     z-index: 10;
+}
+
+footer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #c2c2c2;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 1em;
 }
 
 a{
@@ -27,22 +39,6 @@ a{
 
 a:hover{
     color: #fff;
-}
-
-#content{
-    display: flex;
-    align-items: center;
-    flex: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#footer{
-    color: #c2c2c2;
-    font-weight: 400;
-    font-size: 12px;
-    text-align: left;
-    padding: 1em 3em;
 }
 
 h1{
@@ -61,6 +57,23 @@ canvas{
     left: 0;
     bottom: 0;
     right: 0;
+}
+
+.nav_item{
+    padding: 1em;
+}
+
+#content{
+    display: flex;
+    align-items: center;
+    flex: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#logo{
+    display: inline;
+    width: 2rem;
 }
 
 @media screen and (orientation: landscape) {
