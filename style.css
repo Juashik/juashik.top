@@ -13,16 +13,18 @@ body{
     padding: 0px;
     display: flex;
     flex-direction: column;
-    background-image: url('background.min.svg');
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
-nav{
+header{
     display: flex;
     justify-content: left;
     align-items: center;
+    height: 68px;
     z-index: 10;
+}
+
+main{
+    padding: 0 1em;
 }
 
 footer{
@@ -44,7 +46,7 @@ a:hover{
     color: #fff;
 }
 
-h1{
+.big{
     margin: 0;
     width: 100%;
     text-align: center;
@@ -54,25 +56,18 @@ h1{
     mix-blend-mode: difference;
 }
 
-canvas{
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+.big_container{
+    display: flex;
+    align-items: center;
+    flex: 100%;
+    padding: 0;
+    background-image: url('background.min.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .nav_item{
     padding: 1em;
-}
-
-#content{
-    display: flex;
-    align-items: center;
-    flex: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 #logo{
