@@ -13,6 +13,9 @@ body{
     padding: 0px;
     display: flex;
     flex-direction: column;
+    background-image: url('background.min.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 nav{
@@ -48,6 +51,7 @@ h1{
     font-size: 25vw;
     font-weight: 100;
     z-index: 1;
+    mix-blend-mode: difference;
 }
 
 canvas{
